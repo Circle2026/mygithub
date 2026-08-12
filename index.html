@@ -1,0 +1,150 @@
+<!doctype html>
+<html lang="zh-Hant">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>履歷 - 資料／數據分析師</title>
+	<style>
+		:root{--bg:#f7f8fb;--card:#fff;--text:#111;--muted:#556;--accent:#2563eb}
+		[data-theme='dark']{--bg:#0b1220;--card:#071027;--text:#e6eef8;--muted:#9fb2d6;--accent:#60a5fa}
+		*{box-sizing:border-box}
+		body{font-family:Inter,Segoe UI,Helvetica,Arial,sans-serif;margin:0;background:var(--bg);color:var(--text);-webkit-font-smoothing:antialiased}
+		.container{max-width:900px;margin:32px auto;padding:24px}
+		.card{background:var(--card);border-radius:12px;padding:20px;box-shadow:0 6px 20px rgba(2,6,23,0.08)}
+		header{display:flex;gap:20px;align-items:center}
+		.avatar{width:96px;height:96px;border-radius:12px;background:linear-gradient(135deg,var(--accent),#8b5cf6);display:flex;align-items:center;justify-content:center;color:#fff;font-weight:700;font-size:28px}
+		h1{margin:0;font-size:24px}
+		h2{margin:8px 0;color:var(--muted);font-size:14px;font-weight:600}
+		.meta{margin-left:auto;text-align:right;font-size:13px}
+		.grid{display:grid;grid-template-columns:1fr 320px;gap:20px;margin-top:18px}
+		.section{margin-bottom:16px}
+		.section h3{margin:0 0 8px 0;font-size:15px}
+		ul{padding-left:18px;margin:6px 0}
+		.skill-list{display:flex;flex-wrap:wrap;gap:8px}
+		.skill{background:rgba(37,99,235,0.12);color:var(--accent);padding:6px 10px;border-radius:999px;font-size:13px}
+		.project{border-left:3px solid rgba(37,99,235,0.12);padding:10px 12px;margin-bottom:10px;background:linear-gradient(180deg,transparent,rgba(2,6,23,0.01))}
+		.tools{font-size:13px;color:var(--muted)}
+		footer{margin-top:18px;font-size:13px;color:var(--muted);text-align:center}
+		.actions{display:flex;gap:8px;justify-content:flex-end}
+		a.btn{background:var(--accent);color:#fff;padding:8px 12px;border-radius:8px;text-decoration:none;font-weight:600}
+		.muted{color:var(--muted)}
+		@media (max-width:880px){.grid{grid-template-columns:1fr;}.meta{order:3;text-align:left;margin-top:10px}}
+	</style>
+</head>
+<body>
+	<div class="container">
+		<div class="card">
+			<header>
+				<div class="avatar">JD</div>
+				<div>
+					<h1>陳大文</h1>
+					<h2>資料 / 數據分析師（Data Analyst）</h2>
+					<div class="muted">專長：資料清理、探索性資料分析、資料視覺化、預測模型</div>
+				</div>
+				<div class="meta">
+					<div>台北 • 可遠端/到場</div>
+					<div style="margin-top:8px">email: david.chen@example.com</div>
+					<div>電話: +886 9xx xxx xxx</div>
+				</div>
+			</header>
+
+			<div class="grid">
+				<main>
+					<section class="section">
+						<h3>自我簡介</h3>
+						<p class="muted">具 4 年資料分析經驗，熟悉資料清理、ETL、SQL 查詢與資料視覺化。過去專案聚焦於銷售分析、客群分群與預測模型，能將複雜資料轉換為可以驅動決策的洞見。</p>
+					</section>
+
+					<section class="section">
+						<h3>專業技能</h3>
+						<div class="skill-list">
+							<span class="skill">Python (pandas, numpy)</span>
+							<span class="skill">SQL (Postgres, MySQL)</span>
+							<span class="skill">Tableau / Power BI</span>
+							<span class="skill">統計分析</span>
+							<span class="skill">機器學習 (scikit-learn)</span>
+							<span class="skill">資料視覺化</span>
+							<span class="skill">Excel / VBA</span>
+							<span class="skill">Git</span>
+						</div>
+					</section>
+
+					<section class="section">
+						<h3>重點專案</h3>
+						<div class="project">
+							<strong>銷售預測模型 | 零售業</strong>
+							<div class="muted">期間：2024 — 2025</div>
+							<p>整合 POS 與行銷資料，使用時間序列模型與 XGBoost 建立月度銷售預測，將預測誤差（MAPE）從 18% 降至 8%，並提供補貨建議以降低缺貨率。</p>
+							<div class="tools">技術：Python, pandas, Prophet, XGBoost, SQL, Tableau</div>
+						</div>
+
+						<div class="project">
+							<strong>客群分群與行銷投放優化</strong>
+							<div class="muted">期間：2023</div>
+							<p>使用 RFM 與 K-means 建立客群分群，結合 A/B 測試設計，幫助行銷團隊提高 12% 的轉換率。</p>
+							<div class="tools">技術：Python, scikit-learn, SQL, Power BI</div>
+						</div>
+
+						<div class="project">
+							<strong>作業自動化與 ETL 管線</strong>
+							<div class="muted">期間：2022</div>
+							<p>設計可重用的 ETL 腳本，自動化每日資料匯入與清理流程，縮短資料準備時間從數小時至 20 分鐘。</p>
+							<div class="tools">技術：Python, Airflow, SQL</div>
+						</div>
+					</section>
+
+					<section class="section">
+						<h3>學歷與證照</h3>
+						<ul>
+							<li>國立台灣大學 統計研究所 (碩士)</li>
+							<li>Google Data Analytics Professional Certificate</li>
+						</ul>
+					</section>
+				</main>
+
+				<aside>
+					<div class="section">
+						<h3>聯絡與連結</h3>
+						<p class="muted">GitHub: <a href="https://github.com/yourname">github.com/yourname</a></p>
+						<p class="muted">LinkedIn: <a href="https://linkedin.com/in/yourname">linkedin.com/in/yourname</a></p>
+						<p class="muted">作品集: <a href="#">portfolio.example.com</a></p>
+					</div>
+
+					<div class="section">
+						<h3>量化成果</h3>
+						<ul>
+							<li>提高銷售預測準確度 10%</li>
+							<li>縮短資料處理時間 70%</li>
+							<li>行銷投放轉換率提升 12%</li>
+						</ul>
+					</div>
+
+					<div class="section">
+						<h3>工具與平台</h3>
+						<div class="tools">
+							Python, R, SQL, Tableau, Power BI, Git, Airflow, Docker
+						</div>
+					</div>
+
+					<div class="section actions">
+						<a class="btn" href="#">下載 PDF</a>
+						<a class="btn" href="mailto:david.chen@example.com">聯絡我</a>
+					</div>
+				</aside>
+			</div>
+
+			<footer>
+				感謝您的閱讀 — 若需更詳細的履歷或專案程式碼，請透過上方聯絡方式索取。
+			</footer>
+		</div>
+	</div>
+
+	<script>
+		// 簡單主題切換（可擴充）
+		(function(){
+			const prefersDark = window.matchMedia && window.matchMedia('(prefers-color-scheme:dark)').matches;
+			if(prefersDark) document.documentElement.setAttribute('data-theme','dark');
+		})();
+	</script>
+</body>
+</html>
